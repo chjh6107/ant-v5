@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-size: 16px;
+  font-feature-settings: normal;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1;
+  color: var(--black);
+  background-color: var(--bg);
+  overflow-y: overlay;
+}
