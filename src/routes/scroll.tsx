@@ -1,6 +1,8 @@
+import ScrollSmoothAdv from "src/components/scroll-smooth-adv";
+
 const ScrollPage = () => {
   return (
-    <div>
+    <ScrollSmoothAdv>
       <div className="bg-red-500 w-full h-[50vh]" />
       <div className="bg-violet-500 w-full h-[50vh]" />
       <div className="bg-sky-500 w-full h-[50vh]" />
@@ -15,7 +17,7 @@ const ScrollPage = () => {
       <div className="bg-blue-500 w-full h-[50vh]" />
       <div className="bg-orange-500 w-full h-[50vh]" />
       <div className="bg-teal-500 w-full h-[50vh]" />
-    </div>
+    </ScrollSmoothAdv>
   );
 };
 export default ScrollPage;
