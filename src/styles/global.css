@@ -10,4 +10,5 @@ body {
   color: var(--black);
   background-color: var(--bg);
   overflow-y: overlay;
+  margin: 0;
 }
